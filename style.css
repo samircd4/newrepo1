@@ -1,0 +1,206 @@
+  .container{
+    height:auto;
+    width: 75%;
+    margin: 0 auto;
+    box-shadow: 2px 2px 4px rgb(99, 99, 99);
+    background-color:#FAFAFA;
+ } 
+ .pic{
+    height: 334px;
+    width: 100%;
+    background-image: url(./pic/20220730080025images-2-.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-size: 100% auto;
+ }
+ .form-hed h2{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-weight:100;
+    letter-spacing: 3px;
+    
+ }
+ .form-hed p{
+    text-align: center;
+    line-height: 1.5rem;
+    color: rgb(99, 99, 99);
+ }
+
+ 
+
+.icon{
+    height: 20px;
+    border: 1px solid black;
+    width: 30px;
+}
+.container2{
+     height:auto;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     justify-content: space-between;
+     margin: 0 auto;
+      
+}
+ 
+
+#icon{
+    border: 1px solid #D2D8DD;
+    width: 38px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px 0 0 5px;
+   
+}
+input[type="text"]{
+    height:30px;
+    width: 350px;
+    border-radius: 0 5px 5px 0; 
+    border: 1px solid #D2D8DD;
+    background-color: transparent; 
+    border-left: none;      
+}
+
+.icon-input{
+    display: flex;
+    margin-left: 30px;
+}
+.icon-input #icon{
+    text-align: center;
+    padding-top: 7px;
+}
+.field h5{
+    font-size:1rem;
+    font-weight: 400;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    color: #636568;
+}
+span{
+    color: red;
+    font-size: 0.25rem;
+    position: absolute;
+    padding-left: 6px;  
+}
+span i{
+    margin-top: 5px;
+}
+
+select{
+    height:35px;
+    width: 350px;
+    border-radius: 0 5px 5px 0; 
+    border: 1px solid #D2D8DD;
+    background-color: transparent; 
+    border-left: none;      
+}
+
+input[type="number"]{
+    height:30px;
+    width: 350px;
+    border-radius: 0 5px 5px 0; 
+    border: 1px solid #D2D8DD;
+    background-color: transparent; 
+    border-left: none;      
+}
+.check-box{
+    margin-top: 15px;
+    height: 65px;
+}
+.check-box h5{
+    font-size:1rem;
+    font-weight: 400;
+    padding-left: 22px;
+    margin-bottom: 10px;
+    color: #636568;
+}
+#check{
+    margin-left: 35px;
+    margin-bottom: 10px;
+    accent-color: green;
+    color: #636568;     
+}
+
+label{
+    color: #636568;
+}
+ 
+.upload h5{
+    font-size:1rem;
+    font-weight: 400;
+    padding-left: 22px;
+    margin-bottom: 10px;
+    color: #636568;
+    
+}
+.upload p{
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin-left: 23px;
+    color: #636568;
+}
+.btn-warning{
+    position: relative;
+    padding: 10px;
+    font-size: 15px;
+    color: #636568;
+    border: 1px solid #D2D8DD;
+    overflow: hidden;
+    height: 35px;
+    width: 180px;
+    margin-left: 33px;
+}
+.btn-warning:hover{
+    background-color:#E9ECEF;
+}
+
+.btn-warning input[type="file"]{
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: scale(3);
+    opacity: 0;
+}
+
+.div3{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column: 1/-1;
+}
+
+textarea{
+    margin-left: 37px;
+    border-radius: 5px;
+    border:0;
+    border: 1px solid #D2D8DD;
+    background-color: #FAFAFA;
+}
+
+.div4{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column: 1/-1;
+}
+input[type="submit"]:hover{
+    background-color: #B48CA0;
+    cursor: pointer;
+}
+
+input[type="submit"]{
+    margin-top: 40px;
+    margin-left: 15px;
+    height:40px;
+    width:97%;
+    border-radius:5px; 
+    border: 1px solid #D2D8DD;
+    background-color:#A37189;
+    color: white; 
+    font-size: 1rem;
+    margin-bottom: 25px;
+         
+}
+
+ 
+
